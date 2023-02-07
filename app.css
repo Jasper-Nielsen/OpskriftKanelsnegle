@@ -22,7 +22,7 @@ body{
    text-align: center;
 }
 
-.instructions{
+#instructions{
     display: grid;
     grid-template-columns: auto auto;
     
