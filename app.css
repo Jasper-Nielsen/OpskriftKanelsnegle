@@ -5,26 +5,53 @@ body{
 
 
 
-.headerContent h1{
-   
-    font-size: 40px; 
+header h1{
+   /* hvad er rigtigst her adgang via header, da der kun er 1 header
+   eller lav id? */
+    font-size: 3.5em; 
     text-align: center;
+    font-family:cursive ;
 }
 
-.headerContent img{
+#headerContent img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    
 }
 
-.headerContent p{
-   text-align: center;
+header p {
+    margin-left:15% ;
+    margin-top: 0.5em;
+    font-size: 1em;
 }
+/* #headerContent p{
+   text-align: center;
+} */
 
 #instructions{
     display: grid;
     grid-template-columns: auto auto;
     
 }
+
+#baking h3{
+    text-align: center;
+}
+
+.infopiece h4{
+margin-top: 0.1em;
+margin-bottom: 0.1em;
+}
+
+#baking h3{
+    
+    margin-bottom: 0.1em;
+}
+#baking ol{
+    
+    margin-top: 0.1em;
+}
+
 
