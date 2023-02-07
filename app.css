@@ -1,57 +1,84 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive, Helvetica, sans-serif;
+    color:black;
     background-color: purple;
+    /* background-image: url("./images/blomstklippet.jpg"); */
+    background-image: url("./images/kunblomst.jpg");
+    /* background-repeat: repeat; */
+    /* object-fit:fill; */
 }
 
 
 
 header h1{
-   /* hvad er rigtigst her adgang via header, da der kun er 1 header
+   /* hvad er rigtigst her? 
+   adgang via header, da der kun er 1 header
    eller lav id? */
-    font-size: 3.5em; 
+    font-size: 300%; 
     text-align: center;
-    font-family:cursive ;
+    background-color: cornsilk;
 }
 
-#headerContent img{
+#headercontent img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    border-radius: 2em;
+    object-fit: contain;
     
 }
 
-header p {
+#headercontent p{
     margin-left:15% ;
     margin-top: 0.5em;
     font-size: 1em;
 }
-/* #headerContent p{
-   text-align: center;
-} */
+
+
 
 #instructions{
+    /* making grid dvided in 2 coloumns */
     display: grid;
     grid-template-columns: auto auto;
+    row-gap: 0.5em;
     
 }
 
-#baking h3{
-    text-align: center;
+.leftinfo h4{
+    margin-left: 2.5em;
 }
 
+#baking h3{
+    /* makes headline centered */
+    text-align: center;
+}
+#bakingandvideo{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 .infopiece h4{
 margin-top: 0.1em;
 margin-bottom: 0.1em;
 }
 
+
 #baking h3{
-    
+    /* reduce spacing at bottom so text in ol and header are closer */
     margin-bottom: 0.1em;
 }
 #baking ol{
-    
+    /* reduce spacing at top so header and text ini ol are closer */
     margin-top: 0.1em;
 }
 
+#video{
+    margin-top: 5em;;
+}
 
+footer p{
+    text-align: center;
+    font-size: 1em;
+    background-color: darkblue;
+    color:white;
+}
