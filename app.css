@@ -21,14 +21,15 @@ header h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
     border-radius: 2em;
     object-fit: contain;
     
 }
 
 #headercontent p{
-    margin-left:15% ;
+    /* margin-left:15% ; */
+    text-align: center;
     margin-top: 0.5em;
     font-size: 1em;
 }
