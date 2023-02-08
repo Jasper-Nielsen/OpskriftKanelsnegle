@@ -1,11 +1,9 @@
 body{
     font-family: cursive, Helvetica, sans-serif;
     color:black;
-    background-color: purple;
-    /* background-image: url("./images/blomstklippet.jpg"); */
-    background-image: url("./images/kunblomst.jpg");
-    /* background-repeat: repeat; */
-    /* object-fit:fill; */
+    /* background-color: purple; */
+    /* background-image: url("./images/kunblomst.jpg"); */
+    background-image: linear-gradient(to right, red,orange,yellow,green);
 }
 
 
@@ -42,11 +40,18 @@ header h1{
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 0.5em;
+    column-gap: 1em;
     
 }
 
 .leftinfo h4{
     margin-left: 2.5em;
+    
+}
+
+.infopiece{
+    border-style: solid;
+    background-color: khaki;
 }
 
 #baking h3{
@@ -56,6 +61,7 @@ header h1{
 #bakingandvideo{
     display: grid;
     grid-template-columns: auto auto;
+    column-gap: 1em;
 }
 .infopiece h4{
 margin-top: 0.1em;
