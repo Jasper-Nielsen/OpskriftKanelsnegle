@@ -55,18 +55,23 @@ header h1{
     
 }
 
-.leftinfo h4{
-    /* left side headline in instructions */
-    
-    margin-left: 3em;
-    
-}
+
 
 .infopiece h4{
 margin-top: 0.1em;
 margin-bottom: 0.1em;
+
 }
 
+.infopiece ul{
+    text-align: left;
+    margin-left: -1em;
+}
+
+.infopiece ol{
+    text-align: left;
+    margin-left: -1em;
+}
 .infopiece h2{
     /* headers in all the six info parts */
     /* targets headers in each part and centers it */
@@ -79,7 +84,7 @@ margin-bottom: 0.1em;
     border-style: solid;
     /* adds background color to info parts */
     background-color: khaki;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 
@@ -98,6 +103,7 @@ margin-bottom: 0.1em;
 #baking ol{
     /* reduce spacing at top so header and text ini ol are closer */
     margin-top: 0.1em;
+    
 }
 
 #video{
